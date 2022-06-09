@@ -48,21 +48,6 @@ public class FinancialDataProcessingService {
         return  sign *  number;
     }
 
-    public static void main(String[] args) throws WrongFormatException {
-        System.out.println(getAmountFromStringInput("50D 44C"));
-        System.out.println(getAmountFromStringInput("00D 44C"));
-        System.out.println(getAmountFromStringInput("5D 4C"));
-        System.out.println(getAmountFromStringInput("0D 0C"));
-        System.out.println(getAmountFromStringInput("50D"));
-        System.out.println(getAmountFromStringInput("44C"));
-        System.out.println(getAmountFromStringInput("0C"));
-        System.out.println(getAmountFromStringInput("0D"));
-//        System.out.println(getAmountFromStringInput("-50C"));
-        System.out.println(getAmountFromStringInput("-4D"));
-        System.out.println(getAmountFromStringInput("-2D 4C"));// doubt
-//        System.out.println(getAmountFromStringInput("2D -4C"));// doubt
-//        System.out.println(getAmountFromStringInput("-2D -4C"));// doubt
-    }
 }
 
 
