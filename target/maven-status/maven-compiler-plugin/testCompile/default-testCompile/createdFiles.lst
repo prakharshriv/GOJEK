@@ -1,0 +1,4 @@
+com\gojek\financial\test\controller\BankingControllerTest.class
+com\gojek\financial\test\Services\CreditServiceTest.class
+com\gojek\financial\test\Services\DebitServiceTest.class
+com\gojek\financial\test\Services\FinancialDataProcessingServiceTest.class

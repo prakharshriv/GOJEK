@@ -1,0 +1,23 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–·­¨ùÿÿÿÿ8ÍµˆÅ”0
+t
+java:S3008"RRename this field "OPTIONS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷“—ôıÿÿÿÿ8ÖµˆÅ”0
+t
+java:S3008	"WRename this field "ENTER_AMOUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾±‚®8ÖµˆÅ”0
+s
+java:S3008
+"VRename this field "END_MESSAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀìŞ•8ÖµˆÅ”0
+|
+java:S3008"ZRename this field "SUCCESS_MESSAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äğ‚šıÿÿÿÿ8ÖµˆÅ”0
+t
+java:S3008"WRename this field "FAIL_MESSAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–öë8ÖµˆÅ”0
+\
+java:S1118":Add a private constructor to hide the implicit public one.(îºŠúÿÿÿÿ8êµˆÅ”0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(âµ—¿üÿÿÿÿ8ùµˆÅ”0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ê€‰8‰¶ˆÅ”0
+G
+java:S1197"*Move the array designators [] to the type.(Ãú‡»8™¶ˆÅ”0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¥ƒÄ8›¶ˆÅ”0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ç‹‘€8¶ˆÅ”0
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(™‚ÒÜşÿÿÿÿ8¶ˆÅ”0
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ÂçÛøÿÿÿÿ8¡¶ˆÅ”0
