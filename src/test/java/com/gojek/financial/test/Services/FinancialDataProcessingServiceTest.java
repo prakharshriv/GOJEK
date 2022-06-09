@@ -1,6 +1,8 @@
-package com.gojek.financial.Services;
+package com.gojek.financial.test.Services;
 
 import com.gojek.financial.Exceptions.WrongFormatException;
+import com.gojek.financial.Services.FinancialDataProcessingService;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +14,7 @@ class FinancialDataProcessingServiceTest {
     @DisplayName("Checking String processing for full Inputs")
     void getAmountFromStringInputTestForFullInput(){
         try {
-            assertEquals(100.1,FinancialDataProcessingService.getAmountFromStringInput("100D 10C"));
+            Assertions.assertEquals(100.1, FinancialDataProcessingService.getAmountFromStringInput("100D 10C"));
             assertEquals(1.1,FinancialDataProcessingService.getAmountFromStringInput("1D 10C"));
             assertEquals(12356678.99,FinancialDataProcessingService.getAmountFromStringInput("12356678D 99C"));
             assertEquals(0.1,FinancialDataProcessingService.getAmountFromStringInput("00D 10C"));
